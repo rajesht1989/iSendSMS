@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920386371B43C2D000A91EC3 /* iSendSMSLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 920386361B43C2D000A91EC3 /* iSendSMSLogo.png */; };
+		9203866F1B43E69C00A91EC3 /* SendingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9203866E1B43E69C00A91EC3 /* SendingIndicatorView.m */; };
+		920386731B440A4F00A91EC3 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920386721B440A4F00A91EC3 /* AddressBookUI.framework */; };
+		920386751B44124F00A91EC3 /* Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 920386741B44124F00A91EC3 /* Contact.png */; };
+		920386781B441D7D00A91EC3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920386771B441D7D00A91EC3 /* LoginViewController.m */; };
+		9203867B1B4421CB00A91EC3 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9203867A1B4421CB00A91EC3 /* WebViewController.m */; };
+		92FD72491B33ECDF00A3015D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD72481B33ECDF00A3015D /* main.m */; };
+		92FD724C1B33ECDF00A3015D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD724B1B33ECDF00A3015D /* AppDelegate.m */; };
+		92FD724F1B33ECDF00A3015D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD724E1B33ECDF00A3015D /* ViewController.m */; };
+		92FD72521B33ECDF00A3015D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FD72501B33ECDF00A3015D /* Main.storyboard */; };
+		92FD72541B33ECDF00A3015D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FD72531B33ECDF00A3015D /* Images.xcassets */; };
+		92FD72571B33ECDF00A3015D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FD72551B33ECDF00A3015D /* LaunchScreen.xib */; };
+		92FD726E1B33EF8B00A3015D /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD726D1B33EF8B00A3015D /* Connection.m */; };
+		92FD72711B33F2E700A3015D /* FPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD72701B33F2E600A3015D /* FPTextView.m */; };
+		92FD72741B33F34600A3015D /* FPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD72731B33F34600A3015D /* FPTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		920386361B43C2D000A91EC3 /* iSendSMSLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iSendSMSLogo.png; sourceTree = "<group>"; };
+		9203866D1B43E69C00A91EC3 /* SendingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendingIndicatorView.h; sourceTree = "<group>"; };
+		9203866E1B43E69C00A91EC3 /* SendingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendingIndicatorView.m; sourceTree = "<group>"; };
+		920386721B440A4F00A91EC3 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		920386741B44124F00A91EC3 /* Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact.png; sourceTree = "<group>"; };
+		920386761B441D7D00A91EC3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		920386771B441D7D00A91EC3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		920386791B4421CA00A91EC3 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9203867A1B4421CB00A91EC3 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		92FD72431B33ECDF00A3015D /* iSendSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSendSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FD72471B33ECDF00A3015D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FD72481B33ECDF00A3015D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92FD724A1B33ECDF00A3015D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92FD724B1B33ECDF00A3015D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92FD724D1B33ECDF00A3015D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92FD724E1B33ECDF00A3015D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92FD72511B33ECDF00A3015D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92FD72531B33ECDF00A3015D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92FD72561B33ECDF00A3015D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		92FD726C1B33EF8B00A3015D /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		92FD726D1B33EF8B00A3015D /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		92FD726F1B33F2E600A3015D /* FPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTextView.h; sourceTree = "<group>"; };
+		92FD72701B33F2E600A3015D /* FPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTextView.m; sourceTree = "<group>"; };
+		92FD72721B33F34600A3015D /* FPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTextField.h; sourceTree = "<group>"; };
+		92FD72731B33F34600A3015D /* FPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92FD72401B33ECDF00A3015D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920386731B440A4F00A91EC3 /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92FD723A1B33ECDF00A3015D = {
+			isa = PBXGroup;
+			children = (
+				92FD72451B33ECDF00A3015D /* iSendSMS */,
+				92FD72441B33ECDF00A3015D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92FD72441B33ECDF00A3015D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92FD72431B33ECDF00A3015D /* iSendSMS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FD72451B33ECDF00A3015D /* iSendSMS */ = {
+			isa = PBXGroup;
+			children = (
+				92FD724A1B33ECDF00A3015D /* AppDelegate.h */,
+				92FD724B1B33ECDF00A3015D /* AppDelegate.m */,
+				92FD724D1B33ECDF00A3015D /* ViewController.h */,
+				92FD724E1B33ECDF00A3015D /* ViewController.m */,
+				92FD726C1B33EF8B00A3015D /* Connection.h */,
+				92FD726D1B33EF8B00A3015D /* Connection.m */,
+				92FD72721B33F34600A3015D /* FPTextField.h */,
+				92FD72731B33F34600A3015D /* FPTextField.m */,
+				92FD726F1B33F2E600A3015D /* FPTextView.h */,
+				92FD72701B33F2E600A3015D /* FPTextView.m */,
+				9203866D1B43E69C00A91EC3 /* SendingIndicatorView.h */,
+				9203866E1B43E69C00A91EC3 /* SendingIndicatorView.m */,
+				920386761B441D7D00A91EC3 /* LoginViewController.h */,
+				920386771B441D7D00A91EC3 /* LoginViewController.m */,
+				920386791B4421CA00A91EC3 /* WebViewController.h */,
+				9203867A1B4421CB00A91EC3 /* WebViewController.m */,
+				92FD72501B33ECDF00A3015D /* Main.storyboard */,
+				92FD72531B33ECDF00A3015D /* Images.xcassets */,
+				92FD72551B33ECDF00A3015D /* LaunchScreen.xib */,
+				92FD72461B33ECDF00A3015D /* Supporting Files */,
+			);
+			path = iSendSMS;
+			sourceTree = "<group>";
+		};
+		92FD72461B33ECDF00A3015D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				920386741B44124F00A91EC3 /* Contact.png */,
+				920386721B440A4F00A91EC3 /* AddressBookUI.framework */,
+				920386361B43C2D000A91EC3 /* iSendSMSLogo.png */,
+				92FD72471B33ECDF00A3015D /* Info.plist */,
+				92FD72481B33ECDF00A3015D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92FD72421B33ECDF00A3015D /* iSendSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FD72661B33ECDF00A3015D /* Build configuration list for PBXNativeTarget "iSendSMS" */;
+			buildPhases = (
+				92FD723F1B33ECDF00A3015D /* Sources */,
+				92FD72401B33ECDF00A3015D /* Frameworks */,
+				92FD72411B33ECDF00A3015D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSendSMS;
+			productName = iSendSMS;
+			productReference = 92FD72431B33ECDF00A3015D /* iSendSMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92FD723B1B33ECDF00A3015D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Org;
+				TargetAttributes = {
+					92FD72421B33ECDF00A3015D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 92FD723E1B33ECDF00A3015D /* Build configuration list for PBXProject "iSendSMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92FD723A1B33ECDF00A3015D;
+			productRefGroup = 92FD72441B33ECDF00A3015D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92FD72421B33ECDF00A3015D /* iSendSMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92FD72411B33ECDF00A3015D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FD72521B33ECDF00A3015D /* Main.storyboard in Resources */,
+				92FD72571B33ECDF00A3015D /* LaunchScreen.xib in Resources */,
+				920386751B44124F00A91EC3 /* Contact.png in Resources */,
+				920386371B43C2D000A91EC3 /* iSendSMSLogo.png in Resources */,
+				92FD72541B33ECDF00A3015D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92FD723F1B33ECDF00A3015D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920386781B441D7D00A91EC3 /* LoginViewController.m in Sources */,
+				92FD724F1B33ECDF00A3015D /* ViewController.m in Sources */,
+				92FD72741B33F34600A3015D /* FPTextField.m in Sources */,
+				92FD72711B33F2E700A3015D /* FPTextView.m in Sources */,
+				9203867B1B4421CB00A91EC3 /* WebViewController.m in Sources */,
+				92FD724C1B33ECDF00A3015D /* AppDelegate.m in Sources */,
+				92FD72491B33ECDF00A3015D /* main.m in Sources */,
+				92FD726E1B33EF8B00A3015D /* Connection.m in Sources */,
+				9203866F1B43E69C00A91EC3 /* SendingIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92FD72501B33ECDF00A3015D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FD72511B33ECDF00A3015D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92FD72551B33ECDF00A3015D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FD72561B33ECDF00A3015D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92FD72641B33ECDF00A3015D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92FD72651B33ECDF00A3015D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92FD72671B33ECDF00A3015D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSendSMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92FD72681B33ECDF00A3015D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSendSMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92FD723E1B33ECDF00A3015D /* Build configuration list for PBXProject "iSendSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FD72641B33ECDF00A3015D /* Debug */,
+				92FD72651B33ECDF00A3015D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FD72661B33ECDF00A3015D /* Build configuration list for PBXNativeTarget "iSendSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FD72671B33ECDF00A3015D /* Debug */,
+				92FD72681B33ECDF00A3015D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92FD723B1B33ECDF00A3015D /* Project object */;
+}

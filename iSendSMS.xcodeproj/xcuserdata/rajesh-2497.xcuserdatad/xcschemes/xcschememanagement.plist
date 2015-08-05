@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>iSendSMS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>92F872E11B352BE400EE99AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>92F872F91B352BE400EE99AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>92FD72421B33ECDF00A3015D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>92FD725B1B33ECDF00A3015D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -72,7 +72,8 @@
         [alertController addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil]];
         [self presentViewController:alertController animated:YES completion:nil];
     }
-    [self touchesBegan:nil withEvent:nil];
+    NSSet *set;
+    [self touchesBegan:set withEvent:nil];
     [indicatorView startAnimating];
     [Connection loginWithUserName:txtUserName.text andPassword:txtPassword.text block:^(Result *objResult) {
         [indicatorView stopAnimating];

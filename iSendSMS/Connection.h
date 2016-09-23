@@ -21,6 +21,7 @@ typedef void (^completionResult)(Result *objResult);
 
 + (void)sendSMSToNumber:(NSString *)strNumber andMessage:(NSString *)strMessage block:(completionResult)completion;
 + (void)loginWithUserName:(NSString *)userName andPassword:(NSString *)password block:(completionResult)completion;
++ (void)sendMsendSMSToNumber:(NSString *)strNumber andMessage:(NSString *)strMessage block:(completionResult)completion;
 + (BOOL)isLoggedIn;
 + (void)logout;
 

@@ -165,9 +165,10 @@
         [self presentViewController:alertController animated:YES completion:nil];
         return;
     }
-    [self touchesBegan:nil withEvent:nil];
+    NSSet *set;
+    [self touchesBegan:set withEvent:nil];
     [indicatorView startAnimating];
-    [Connection sendSMSToNumber:_txtNumber.text andMessage:_txtVwMessage.text block:^(Result *objResult) {
+    [Connection sendMsendSMSToNumber:_txtNumber.text andMessage:_txtVwMessage.text block:^(Result *objResult) {
         [indicatorView stopAnimating];
         if (objResult.bStatus)
         {
